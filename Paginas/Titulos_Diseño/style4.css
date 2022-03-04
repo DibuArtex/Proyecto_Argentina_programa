@@ -1,0 +1,9 @@
+body{
+    background: black;
+}
+
+#titulos .card{
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+    background: #2a2a2a;
+    box-shadow: 0px 0px 12px 7px rgba(120,213,213,0.75);

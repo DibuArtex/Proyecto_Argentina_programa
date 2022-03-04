@@ -1,0 +1,123 @@
+/* BODY */
+body {
+    background: #000000;
+}
+
+/* HEADER */
+
+#header img{
+    width: 375px;
+    background: #000000;
+}
+
+#header #nav a{
+    font-size: 5rem;
+    color: antiquewhite;
+}
+
+/* MAIN */
+
+main .carousel-inner img{
+    max-height: 85vh;
+    object-fit: cover;
+}
+
+/* MAIN OVERLAY */
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#texto-presentacion h1{
+    font-size: 5vw;
+}
+
+#texto-presentacion p {
+    font-size: 150px;
+}
+
+main .container-fluid {
+    background: #000000;
+ }
+
+/* SECTION-2 */
+
+#carousel-2 {
+    position: relative;
+}
+
+#carousel-2 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+main #section-2 .carousel-inner img{
+    max-height: 95vh;
+    object-fit: cover;
+}
+
+/* TERCERA SECCION */
+
+section #tercera.seccion img .logo-CL{
+    width: 1200px;
+}
+
+/* BOTÓN DE CONTACTO */
+
+.rainbow-button {
+    width:calc(10.5vw + 3.5px);
+    height:calc(4.5vw + 3.5px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:1.5vw;
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    width:10vw;
+    height:4vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
+/* FOOTER */
+#footer {
+    background: black;
+    /*background: linear-gradient(90deg, #666666, #272727, 25%, #454546);*/
+    color: #78d5d5;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0px -33px 60px 19px rgba(120,213,213,0.75);
+    font-size: 15px;
+} 
+

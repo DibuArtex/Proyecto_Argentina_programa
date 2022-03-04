@@ -1,0 +1,10 @@
+body{
+    background: black;
+}
+
+#titulos .card{
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+    background: #2a2a2a;
+    box-shadow: 0px 0px 25px 20px rgba(120,213,213,0.75);
+}
